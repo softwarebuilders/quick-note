@@ -29,6 +29,7 @@ repositories {
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'com.google.api-client:google-api-client:1.23.0'
     testCompile 'org.springframework.boot:spring-boot-starter-test'
     testCompile 'org.junit.jupiter:junit-jupiter-engine:5.0.2'
 }
